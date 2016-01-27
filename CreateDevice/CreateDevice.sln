@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreateDevice", "CreateDevice\CreateDevice.csproj", "{0DE54B23-9114-4461-88D6-17C06423AF94}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReadDeviceToCloudMessages", "ReadDeviceToCloudMessages\ReadDeviceToCloudMessages.csproj", "{FB19AF7A-F0F9-40CA-A8AE-70307E2BB624}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimulatedDevice", "SimulatedDevice\SimulatedDevice.csproj", "{530336A1-39A8-41A1-9A57-6053DA6247FE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0DE54B23-9114-4461-88D6-17C06423AF94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DE54B23-9114-4461-88D6-17C06423AF94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DE54B23-9114-4461-88D6-17C06423AF94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DE54B23-9114-4461-88D6-17C06423AF94}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB19AF7A-F0F9-40CA-A8AE-70307E2BB624}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB19AF7A-F0F9-40CA-A8AE-70307E2BB624}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB19AF7A-F0F9-40CA-A8AE-70307E2BB624}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB19AF7A-F0F9-40CA-A8AE-70307E2BB624}.Release|Any CPU.Build.0 = Release|Any CPU
+		{530336A1-39A8-41A1-9A57-6053DA6247FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{530336A1-39A8-41A1-9A57-6053DA6247FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{530336A1-39A8-41A1-9A57-6053DA6247FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{530336A1-39A8-41A1-9A57-6053DA6247FE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
